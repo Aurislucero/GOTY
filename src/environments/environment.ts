@@ -6,13 +6,13 @@ export const environment = {
   production: false,
   url: 'http://localhost:5000/firestore-grafica-44390/us-central1',
   firebase: {
-    apiKey: "AIzaSyDlvv1EY1g5wbQN4v72LhgI1o3jWFXF0t8",
-    authDomain: "seo-angular.firebaseapp.com",
-    projectId: "seo-angular",
-    storageBucket: "seo-angular.appspot.com",
-    messagingSenderId: "322294127127",
-    appId: "1:322294127127:web:80c8d99b3edbad900d1a52",
-    measurementId: "G-9L2FSLJRWC"
+    apiKey: "AIzaSyDiAxOMe1my1s3Lj9vffqVSuB3cAKhpCPU",
+    authDomain: "firestore-grafica-44390.firebaseapp.com",
+    projectId: "firestore-grafica-44390",
+    storageBucket: "firestore-grafica-44390.appspot.com",
+    messagingSenderId: "263437014819",
+    appId: "1:263437014819:web:c7bf1b091b4dd58c70de96",
+    measurementId: "G-3NP9TR9R0K"
   }
 };
 
