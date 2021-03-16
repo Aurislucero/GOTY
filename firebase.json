@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "/dist/gameoftheyear",
+    "public": "/dist/goty",
     "ignore": [
       "firebase.json",
       "**/.*",

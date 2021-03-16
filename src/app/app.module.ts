@@ -13,6 +13,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
+import { SeoService } from './services/seo.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,14 +21,15 @@ import { environment } from 'src/environments/environment';
     CopyComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     ComponentsModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule.enablePersistence(),
+
   ],
-  providers: [],
+  providers: [SeoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
